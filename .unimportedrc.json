@@ -1,0 +1,8 @@
+{
+  "entry": ["src/**/*.{js,ts}"],
+  "extensions": [".ts", ".tsx", ".js"],
+  "ignorePatterns": ["**/node_modules/**"],
+  "ignoreUnresolved": [],
+  "ignoreUnimported": [],
+  "ignoreUnused": []
+}
