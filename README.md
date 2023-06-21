@@ -6,9 +6,9 @@
 
 ## Scripts
 
-`yarn ts-prune`
-`yarn ts-unused-exports`
-`yarn unimported`
+- `yarn ts-prune`
+- `yarn ts-unused-exports`
+- `yarn unimported`
 
 ---
 
