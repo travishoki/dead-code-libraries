@@ -5,6 +5,7 @@
   "scripts": {
     "ts-prune": "npx ts-prune --ignore '.d.ts|.generated.*|.stories.tsx|.story.tsx|queries.ts|test/mocks/index.tsx|test/utils/render.tsx|types/index.ts'",
     "ts-unused-exports": "npx ts-unused-exports tsconfig.json --showLineNumber",
+    "ts-unused-exports:print": "npx ts-unused-exports ./tsconfig.json --allowUnusedEnums --allowUnusedTypes --excludeDeclarationFiles --showLineNumber | grep -v -E '(generated|queries|stories|mocks|enumerations|i18n)' >> unused-files.local",
     "unimported": "npx unimported"
   },
   "dependencies": {
